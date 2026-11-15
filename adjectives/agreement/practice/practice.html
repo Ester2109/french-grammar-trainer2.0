@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Adjective Practice | French Grammar Trainer</title>
+
+  <link rel="stylesheet" href="practice.css">
+  <script src="practice.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="../../../index.html" class="logo">Français</a>
+
+    <nav>
+      <a href="../../../index.html">Home</a>
+      <a href="../../adjectives.html">Adjectives</a>
+    </nav>
+
+    <span class="nav-tag">French Grammar Trainer</span>
+  </header>
+
+  <main>
+    <section class="trainer">
+
+      <a class="back-button" href="../agreement.html">
+        ← Back to Gender &amp; Number
+      </a>
+
+      <span class="section-label">
+        ADJECTIVES / GENDER &amp; NUMBER
+      </span>
+
+      <h1>Practice Mode</h1>
+
+      <p class="section-description">
+        Choose an adjective and practice its masculine
+        and feminine forms.
+      </p>
+
+      <div class="exercise-panel">
+
+        <!-- SEARCH -->
+        <h3>Choose your exercise</h3>
+
+        <div class="verb-filter-panel">
+
+          <label for="search">Search French or English</label>
+
+          <input
+            id="search"
+            type="search"
+            placeholder="e.g. petit, small, rouge, red..."
+            autocomplete="off"
+            aria-controls="suggestions"
+            aria-expanded="false"
+          >
+
+          <div
+            id="suggestions"
+            class="practice-search-results hidden"
+            role="listbox"
+          ></div>
+
+          <span
+            id="status"
+            class="database-count"
+            role="status"
+          >
+            Loading adjectives…
+          </span>
+
+        </div>
+
+        <!-- RANDOM BUTTON -->
+        <div class="exercise-options">
+
+          <div class="verb-selection-row">
+
+            <button
+              type="button"
+              id="random-btn"
+              class="verb-random-button"
+            >
+              🎲 Random
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- EXERCISE -->
+        <div id="exercise-area" class="hidden">
+
+          <div class="exercise-heading">
+
+            <span class="eyebrow">
+              GENDER &amp; NUMBER
+            </span>
+
+            <h3 id="word"></h3>
+
+            <p id="meaning"></p>
+
+          </div>
+
+          <p class="settings-hint">
+            Fill in the forms below. Accents matter.
+          </p>
+
+          <form id="agreement-form" novalidate>
+
+            <!-- AGREEMENT TABLE -->
+            <div class="agreement-table">
+
+              <!-- COLUMN HEADINGS -->
+              <div class="table-corner"></div>
+
+              <div class="table-heading">
+                Singular
+              </div>
+
+              <div class="table-heading">
+                Plural
+              </div>
+
+              <!-- MASCULINE -->
+              <div class="row-heading">
+                Masculine
+              </div>
+
+              <div class="answer-cell">
+
+                <input
+                  class="answer-input"
+                  id="ms"
+                  data-form="ms"
+                  type="text"
+                  aria-label="Masculine singular"
+                  spellcheck="false"
+                  autocomplete="off"
+                >
+
+                <span
+                  class="correction hidden"
+                  data-feedback="ms"
+                ></span>
+
+              </div>
+
+              <div class="answer-cell">
+
+                <input
+                  class="answer-input"
+                  id="mp"
+                  data-form="mp"
+                  type="text"
+                  aria-label="Masculine plural"
+                  spellcheck="false"
+                  autocomplete="off"
+                >
+
+                <span
+                  class="correction hidden"
+                  data-feedback="mp"
+                ></span>
+
+              </div>
+
+              <!-- FEMININE -->
+              <div class="row-heading">
+                Feminine
+              </div>
+
+              <div class="answer-cell">
+
+                <input
+                  class="answer-input"
+                  id="fs"
+                  data-form="fs"
+                  type="text"
+                  aria-label="Feminine singular"
+                  spellcheck="false"
+                  autocomplete="off"
+                >
+
+                <span
+                  class="correction hidden"
+                  data-feedback="fs"
+                ></span>
+
+              </div>
+
+              <div class="answer-cell">
+
+                <input
+                  class="answer-input"
+                  id="fp"
+                  data-form="fp"
+                  type="text"
+                  aria-label="Feminine plural"
+                  spellcheck="false"
+                  autocomplete="off"
+                >
+
+                <span
+                  class="correction hidden"
+                  data-feedback="fp"
+                ></span>
+
+              </div>
+
+            </div>
+
+            <!-- SPECIAL FORM -->
+            <div
+              class="special-form-section hidden"
+              id="special-row"
+            >
+
+              <label for="special">
+                Before vowel / mute h
+              </label>
+
+              <input
+                class="answer-input"
+                id="special"
+                data-form="special"
+                type="text"
+                spellcheck="false"
+                autocomplete="off"
+              >
+
+              <span
+                class="correction hidden"
+                data-feedback="special"
+              ></span>
+
+            </div>
+
+            <p
+              id="special-example"
+              class="settings-hint hidden"
+            ></p>
+
+            <!-- BUTTONS -->
+            <div class="answer-buttons">
+
+              <button
+                class="primary-button"
+                id="check"
+                type="submit"
+              >
+                Check answers →
+              </button>
+
+              <button
+                class="primary-button show-answers-button"
+                id="show"
+                type="button"
+              >
+                Show answers
+              </button>
+
+              <button
+                class="verb-random-button"
+                id="retry"
+                type="button"
+              >
+                Try again ↻
+              </button>
+
+            </div>
+
+          </form>
+
+          <div
+            id="feedback"
+            class="hidden"
+            role="status"
+          ></div>
+
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>Made by Ester Halvorsen ❤️</p>
+
+    <span
+      class="footer-flag"
+      role="img"
+      aria-label="French flag"
+    ></span>
+
+  </footer>
+
+</body>
+</html>
