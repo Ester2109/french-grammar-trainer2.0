@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nouns | French Grammar Trainer</title>
+  <link rel="stylesheet" href="nouns.css">
+  <script src="nouns.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="../index.html" class="logo">Français</a>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../index.html#categories">Grammar</a>
+    </nav>
+    <span class="nav-tag">French Grammar Trainer</span>
+  </header>
+
+  <main>
+    <section class="trainer" aria-labelledby="page-title">
+      <a class="back-button" id="back-to-categories" href="../index.html#categories">← Back to categories</a>
+      <button class="back-button hidden" id="back-to-modes" type="button">← Back to exercises</button>
+
+      <span class="section-label">FRENCH NOUNS</span>
+      <h1 id="page-title">Practice your French nouns</h1>
+      <p class="section-description" id="page-description">Choose what you would like to practice.</p>
+
+      <!-- First screen: exercise selection -->
+      <div id="mode-selection" class="mode-grid">
+        <button id="gender-mode-btn" class="mode-card" type="button">
+          <span class="mode-icon blue-icon" aria-hidden="true">⚥</span>
+          <h2>Masculine or Feminine?</h2>
+          <p>Test your knowledge of French noun genders. Choose the correct gender for each word.</p>
+          <span class="card-link">Start challenge →</span>
+        </button>
+
+        <div class="mode-card mode-card-disabled" aria-disabled="true">
+          <span class="mode-icon red-icon" aria-hidden="true">📖</span>
+          <h2>More exercises coming soon</h2>
+          <p>More ways to practice French nouns, including singular and plural forms.</p>
+          <span class="coming-soon">Coming soon</span>
+        </div>
+      </div>
+
+      <!-- Second screen: game settings, question, results -->
+      <div id="gender-panel" class="hidden">
+        <div class="game-card">
+          <div id="game-start" class="start-screen">
+            <div class="mode-icon blue-icon centered-icon" aria-hidden="true">🏆</div>
+            <h2>Masculine or Feminine?</h2>
+            <p>Choose the correct grammatical gender of each French noun.</p>
+            <label for="question-count">Number of questions</label>
+            <select id="question-count">
+              <option value="5">5 questions</option>
+              <option value="10" selected>10 questions</option>
+              <option value="20">20 questions</option>
+              <option value="30">30 questions</option>
+              <option value="50">50 questions</option>
+              <option value="100">100 questions</option>
+            </select>
+            <button id="start-game-btn" class="primary-button" type="button">Start challenge →</button>
+          </div>
+
+          <div id="game-play" class="hidden">
+            <div class="game-topline">
+              <span class="game-eyebrow">NOUNS · GAME MODE</span>
+              <span id="question-progress" class="question-counter">1 / 10</span>
+            </div>
+            <div id="progress-track" class="progress-track" role="progressbar" aria-label="Game progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <div class="noun-prompt">
+              <h2 id="noun-word">maison</h2>
+              <p id="noun-translation" class="noun-translation">house</p>
+              <p class="noun-question">Masculine or feminine?</p>
+            </div>
+            <div class="answer-grid" role="group" aria-label="Choose noun gender">
+              <button id="masculine-btn" class="gender-button masculine" type="button">
+                <span class="gender-symbol" aria-hidden="true">♂</span>
+                <span>Masculine</span>
+              </button>
+              <button id="feminine-btn" class="gender-button feminine" type="button">
+                <span class="gender-symbol" aria-hidden="true">♀</span>
+                <span>Feminine</span>
+              </button>
+            </div>
+            <p id="answer-feedback" class="answer-feedback" aria-live="polite"></p>
+          </div>
+
+          <div id="game-results" class="results-screen hidden">
+            <span class="section-label">CHALLENGE COMPLETE</span>
+            <h2>Your results</h2>
+            <p id="result-score" class="result-score"></p>
+            <div id="result-mistakes" class="result-mistakes"></div>
+            <button id="play-again-btn" class="primary-button" type="button">Play again →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Ester Halvorsen ❤️</p>
+    <span class="footer-flag" aria-label="French flag"></span>
+  </footer>
+</body>
+</html>
