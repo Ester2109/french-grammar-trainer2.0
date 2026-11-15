@@ -1,0 +1,2298 @@
+{
+  "categories": [
+    {
+      "id": "relative",
+      "label": "Relative Days & Dates",
+      "description": "Hier, demain, la veille, le lendemain, weeks and years"
+    },
+    {
+      "id": "prepositions",
+      "label": "Time Prepositions",
+      "description": "Avant, après, depuis, pendant, jusqu’à"
+    },
+    {
+      "id": "duration",
+      "label": "Duration & Intervals",
+      "description": "Dans, en, il y a, au cours de"
+    },
+    {
+      "id": "sequence",
+      "label": "Chronology & Sequence",
+      "description": "Ensuite, auparavant, désormais"
+    },
+    {
+      "id": "frequency",
+      "label": "Frequency & Repetition",
+      "description": "Souvent, rarement, tous les jours"
+    },
+    {
+      "id": "calendar",
+      "label": "Dates & Periods",
+      "description": "Le lundi, en janvier, au printemps"
+    }
+  ],
+  "expressions": [
+    {
+      "id": "hier",
+      "french": "hier",
+      "english": "yesterday",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est aujourd’hui : hier.",
+          "translation": "Reference: today — yesterday."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je suis allé au marché ___ .",
+        "answer": "hier",
+        "options": [
+          "hier",
+          "demain",
+          "aujourd’hui",
+          "après-demain"
+        ]
+      }
+    },
+    {
+      "id": "avant_hier",
+      "french": "avant-hier",
+      "english": "the day before yesterday",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est aujourd’hui : avant-hier.",
+          "translation": "Reference: today — the day before yesterday."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous sommes lundi. Samedi, c’était ___ .",
+        "answer": "avant-hier",
+        "options": [
+          "avant-hier",
+          "demain",
+          "hier",
+          "après-demain"
+        ]
+      }
+    },
+    {
+      "id": "aujourdhui",
+      "french": "aujourd’hui",
+      "english": "today",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est aujourd’hui : aujourd’hui.",
+          "translation": "Reference: today — today."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous sommes lundi. ___, c’est lundi.",
+        "answer": "aujourd’hui",
+        "options": [
+          "aujourd’hui",
+          "hier",
+          "demain",
+          "avant-hier"
+        ]
+      }
+    },
+    {
+      "id": "demain",
+      "french": "demain",
+      "english": "tomorrow",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est aujourd’hui : demain.",
+          "translation": "Reference: today — tomorrow."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous sommes lundi. Mardi, c’est ___ .",
+        "answer": "demain",
+        "options": [
+          "demain",
+          "hier",
+          "aujourd’hui",
+          "avant-hier"
+        ]
+      }
+    },
+    {
+      "id": "apres_demain",
+      "french": "après-demain",
+      "english": "the day after tomorrow",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est aujourd’hui : après-demain.",
+          "translation": "Reference: today — the day after tomorrow."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous sommes lundi. Mercredi, c’est ___ .",
+        "answer": "après-demain",
+        "options": [
+          "après-demain",
+          "hier",
+          "demain",
+          "avant-hier"
+        ]
+      }
+    },
+    {
+      "id": "la_veille",
+      "french": "la veille",
+      "english": "the day before",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est le jour de l’événement : la veille.",
+          "translation": "Reference: the event day — the day before."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle est partie mardi. ___, elle a fait ses valises.",
+        "answer": "la veille",
+        "options": [
+          "la veille",
+          "le lendemain",
+          "le surlendemain",
+          "demain"
+        ]
+      }
+    },
+    {
+      "id": "lavant_veille",
+      "french": "l’avant-veille",
+      "english": "two days before",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est le jour de l’événement : l’avant-veille.",
+          "translation": "Reference: the event day — two days before."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il est parti mercredi. ___, lundi, il a acheté son billet.",
+        "answer": "l’avant-veille",
+        "options": [
+          "l’avant-veille",
+          "le lendemain",
+          "la veille",
+          "le surlendemain"
+        ]
+      }
+    },
+    {
+      "id": "ce_jour_la",
+      "french": "ce jour-là",
+      "english": "that day",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est le jour de l’événement : ce jour-là.",
+          "translation": "Reference: the event day — that day."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il est arrivé le 5 mai. ___, il pleuvait.",
+        "answer": "ce jour-là",
+        "options": [
+          "ce jour-là",
+          "demain",
+          "hier",
+          "le lendemain"
+        ]
+      }
+    },
+    {
+      "id": "le_lendemain",
+      "french": "le lendemain",
+      "english": "the following day",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est le jour de l’événement : le lendemain.",
+          "translation": "Reference: the event day — the following day."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle est arrivée lundi. ___, mardi, elle a visité le musée.",
+        "answer": "le lendemain",
+        "options": [
+          "le lendemain",
+          "la veille",
+          "l’avant-veille",
+          "le surlendemain"
+        ]
+      }
+    },
+    {
+      "id": "le_surlendemain",
+      "french": "le surlendemain",
+      "english": "two days later",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Le repère est le jour de l’événement : le surlendemain.",
+          "translation": "Reference: the event day — two days later."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il est arrivé lundi. ___, mercredi, il est reparti.",
+        "answer": "le surlendemain",
+        "options": [
+          "le surlendemain",
+          "la veille",
+          "le lendemain",
+          "l’avant-veille"
+        ]
+      }
+    },
+    {
+      "id": "week_past_1",
+      "french": "il y a 1 semaine",
+      "english": "1 week ago",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes vus il y a 1 semaine.",
+          "translation": "We saw each other 1 week ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai rencontré ___ .",
+        "answer": "il y a 1 semaine",
+        "options": [
+          "il y a 1 semaine",
+          "demain",
+          "la veille",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "week_future_1",
+      "french": "dans 1 semaine",
+      "english": "in 1 week",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous verrons dans 1 semaine.",
+          "translation": "We will see each other in 1 week."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je le reverrai ___ .",
+        "answer": "dans 1 semaine",
+        "options": [
+          "dans 1 semaine",
+          "hier",
+          "le lendemain",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "week_past_2",
+      "french": "il y a 2 semaines",
+      "english": "2 weeks ago",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes vus il y a 2 semaines.",
+          "translation": "We saw each other 2 weeks ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai rencontré ___ .",
+        "answer": "il y a 2 semaines",
+        "options": [
+          "il y a 2 semaines",
+          "demain",
+          "la veille",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "week_future_2",
+      "french": "dans 2 semaines",
+      "english": "in 2 weeks",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous verrons dans 2 semaines.",
+          "translation": "We will see each other in 2 weeks."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je le reverrai ___ .",
+        "answer": "dans 2 semaines",
+        "options": [
+          "dans 2 semaines",
+          "hier",
+          "le lendemain",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "week_past_3",
+      "french": "il y a 3 semaines",
+      "english": "3 weeks ago",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes vus il y a 3 semaines.",
+          "translation": "We saw each other 3 weeks ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai rencontré ___ .",
+        "answer": "il y a 3 semaines",
+        "options": [
+          "il y a 3 semaines",
+          "demain",
+          "la veille",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "week_future_3",
+      "french": "dans 3 semaines",
+      "english": "in 3 weeks",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous verrons dans 3 semaines.",
+          "translation": "We will see each other in 3 weeks."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je le reverrai ___ .",
+        "answer": "dans 3 semaines",
+        "options": [
+          "dans 3 semaines",
+          "hier",
+          "le lendemain",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "month_past_1",
+      "french": "il y a 1 mois",
+      "english": "1 month ago",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes vus il y a 1 mois.",
+          "translation": "We saw each other 1 month ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai rencontré ___ .",
+        "answer": "il y a 1 mois",
+        "options": [
+          "il y a 1 mois",
+          "demain",
+          "la veille",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "month_future_1",
+      "french": "dans 1 mois",
+      "english": "in 1 month",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous verrons dans 1 mois.",
+          "translation": "We will see each other in 1 month."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je le reverrai ___ .",
+        "answer": "dans 1 mois",
+        "options": [
+          "dans 1 mois",
+          "hier",
+          "le lendemain",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "month_past_2",
+      "french": "il y a 2 mois",
+      "english": "2 months ago",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes vus il y a 2 mois.",
+          "translation": "We saw each other 2 months ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai rencontré ___ .",
+        "answer": "il y a 2 mois",
+        "options": [
+          "il y a 2 mois",
+          "demain",
+          "la veille",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "month_future_2",
+      "french": "dans 2 mois",
+      "english": "in 2 months",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous verrons dans 2 mois.",
+          "translation": "We will see each other in 2 months."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je le reverrai ___ .",
+        "answer": "dans 2 mois",
+        "options": [
+          "dans 2 mois",
+          "hier",
+          "le lendemain",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "month_past_3",
+      "french": "il y a 3 mois",
+      "english": "3 months ago",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes vus il y a 3 mois.",
+          "translation": "We saw each other 3 months ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai rencontré ___ .",
+        "answer": "il y a 3 mois",
+        "options": [
+          "il y a 3 mois",
+          "demain",
+          "la veille",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "month_future_3",
+      "french": "dans 3 mois",
+      "english": "in 3 months",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous verrons dans 3 mois.",
+          "translation": "We will see each other in 3 months."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je le reverrai ___ .",
+        "answer": "dans 3 mois",
+        "options": [
+          "dans 3 mois",
+          "hier",
+          "le lendemain",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "year_past_1",
+      "french": "il y a 1 an",
+      "english": "1 year ago",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes vus il y a 1 an.",
+          "translation": "We saw each other 1 year ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai rencontré ___ .",
+        "answer": "il y a 1 an",
+        "options": [
+          "il y a 1 an",
+          "demain",
+          "la veille",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "year_future_1",
+      "french": "dans 1 an",
+      "english": "in 1 year",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous verrons dans 1 an.",
+          "translation": "We will see each other in 1 year."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je le reverrai ___ .",
+        "answer": "dans 1 an",
+        "options": [
+          "dans 1 an",
+          "hier",
+          "le lendemain",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "year_past_2",
+      "french": "il y a 2 ans",
+      "english": "2 years ago",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes vus il y a 2 ans.",
+          "translation": "We saw each other 2 years ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai rencontré ___ .",
+        "answer": "il y a 2 ans",
+        "options": [
+          "il y a 2 ans",
+          "demain",
+          "la veille",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "year_future_2",
+      "french": "dans 2 ans",
+      "english": "in 2 years",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous verrons dans 2 ans.",
+          "translation": "We will see each other in 2 years."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je le reverrai ___ .",
+        "answer": "dans 2 ans",
+        "options": [
+          "dans 2 ans",
+          "hier",
+          "le lendemain",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "year_past_3",
+      "french": "il y a 3 ans",
+      "english": "3 years ago",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes vus il y a 3 ans.",
+          "translation": "We saw each other 3 years ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai rencontré ___ .",
+        "answer": "il y a 3 ans",
+        "options": [
+          "il y a 3 ans",
+          "demain",
+          "la veille",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "year_future_3",
+      "french": "dans 3 ans",
+      "english": "in 3 years",
+      "category": "relative",
+      "examples": [
+        {
+          "sentence": "Nous nous verrons dans 3 ans.",
+          "translation": "We will see each other in 3 years."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je le reverrai ___ .",
+        "answer": "dans 3 ans",
+        "options": [
+          "dans 3 ans",
+          "hier",
+          "le lendemain",
+          "aujourd’hui"
+        ]
+      }
+    },
+    {
+      "id": "avant",
+      "french": "avant",
+      "english": "before",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Je partirai avant midi.",
+          "translation": "I will leave before noon."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je partirai ___ midi.",
+        "answer": "avant",
+        "options": [
+          "avant",
+          "après",
+          "pendant",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "apres",
+      "french": "après",
+      "english": "after",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Nous partirons après le dîner.",
+          "translation": "We will leave after dinner."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous partirons ___ le dîner.",
+        "answer": "après",
+        "options": [
+          "après",
+          "avant",
+          "depuis",
+          "pendant"
+        ]
+      }
+    },
+    {
+      "id": "pendant",
+      "french": "pendant",
+      "english": "during / for",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Il a dormi pendant deux heures.",
+          "translation": "He slept for two hours."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il a dormi ___ deux heures.",
+        "answer": "pendant",
+        "options": [
+          "pendant",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "depuis",
+      "french": "depuis",
+      "english": "since / for (ongoing)",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Elle habite ici depuis 2022.",
+          "translation": "She has lived here since 2022."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle habite ici ___ 2022.",
+        "answer": "depuis",
+        "options": [
+          "depuis",
+          "pendant",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "jusqua",
+      "french": "jusqu’à",
+      "english": "until / up to",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "La bibliothèque est ouverte jusqu’à 20 heures.",
+          "translation": "The library is open until 8 p.m."
+        }
+      ],
+      "quiz": {
+        "sentence": "La bibliothèque est ouverte ___ 20 heures.",
+        "answer": "jusqu’à",
+        "options": [
+          "jusqu’à",
+          "depuis",
+          "vers",
+          "après"
+        ]
+      }
+    },
+    {
+      "id": "des",
+      "french": "dès",
+      "english": "from / as early as",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Le magasin ouvre dès huit heures.",
+          "translation": "The shop opens as early as eight."
+        }
+      ],
+      "quiz": {
+        "sentence": "Le magasin ouvre ___ huit heures.",
+        "answer": "dès",
+        "options": [
+          "dès",
+          "pendant",
+          "depuis",
+          "après"
+        ]
+      }
+    },
+    {
+      "id": "vers",
+      "french": "vers",
+      "english": "around (approximate time)",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Je rentrerai vers 18 heures.",
+          "translation": "I will come home around 6 p.m."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je rentrerai ___ 18 heures.",
+        "answer": "vers",
+        "options": [
+          "vers",
+          "depuis",
+          "pendant",
+          "jusque"
+        ]
+      }
+    },
+    {
+      "id": "a",
+      "french": "à",
+      "english": "at (a time)",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Le train part à neuf heures.",
+          "translation": "The train leaves at nine."
+        }
+      ],
+      "quiz": {
+        "sentence": "Le train part ___ neuf heures.",
+        "answer": "à",
+        "options": [
+          "à",
+          "en",
+          "depuis",
+          "pendant"
+        ]
+      }
+    },
+    {
+      "id": "entre",
+      "french": "entre",
+      "english": "between",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Le rendez-vous est entre 14 h et 15 h.",
+          "translation": "The appointment is between 2 and 3 p.m."
+        }
+      ],
+      "quiz": {
+        "sentence": "Le rendez-vous est ___ 14 h et 15 h.",
+        "answer": "entre",
+        "options": [
+          "entre",
+          "depuis",
+          "pendant",
+          "après"
+        ]
+      }
+    },
+    {
+      "id": "a_partir_de",
+      "french": "à partir de",
+      "english": "starting from",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Les inscriptions ouvrent à partir de lundi prochain.",
+          "translation": "Registration opens starting next Monday."
+        }
+      ],
+      "quiz": {
+        "sentence": "Les inscriptions ouvrent ___ lundi prochain.",
+        "answer": "à partir de",
+        "options": [
+          "à partir de",
+          "pendant",
+          "il y a",
+          "avant"
+        ]
+      }
+    },
+    {
+      "id": "a_compter_de",
+      "french": "à compter de",
+      "english": "effective from",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "La règle s’applique à compter de demain.",
+          "translation": "The rule applies starting tomorrow."
+        }
+      ],
+      "quiz": {
+        "sentence": "La règle s’applique ___ demain.",
+        "answer": "à compter de",
+        "options": [
+          "à compter de",
+          "pendant",
+          "avant",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "au_moment_de",
+      "french": "au moment de",
+      "english": "at the time of",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Il a souri au moment de son départ.",
+          "translation": "He smiled at the time of his departure."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il a souri ___ son départ.",
+        "answer": "au moment de",
+        "options": [
+          "au moment de",
+          "depuis",
+          "vers",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "lors_de",
+      "french": "lors de",
+      "english": "during / on the occasion of",
+      "category": "prepositions",
+      "examples": [
+        {
+          "sentence": "Nous nous sommes rencontrés lors de la conférence.",
+          "translation": "We met during the conference."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous nous sommes rencontrés ___ la conférence.",
+        "answer": "lors de",
+        "options": [
+          "lors de",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "au_cours_de",
+      "french": "au cours de",
+      "english": "during / over the course of",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "Il a beaucoup appris au cours de son séjour.",
+          "translation": "He learned a lot during his stay."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il a beaucoup appris ___ son séjour.",
+        "answer": "au cours de",
+        "options": [
+          "au cours de",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "durant",
+      "french": "durant",
+      "english": "during / for",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "Il a plu durant toute la nuit.",
+          "translation": "It rained all night long."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il a plu ___ toute la nuit.",
+        "answer": "durant",
+        "options": [
+          "durant",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "pour",
+      "french": "pour",
+      "english": "for (planned duration)",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "Je pars à Paris pour trois jours.",
+          "translation": "I am going to Paris for three days."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je pars à Paris ___ trois jours.",
+        "answer": "pour",
+        "options": [
+          "pour",
+          "depuis",
+          "il y a",
+          "dans"
+        ]
+      }
+    },
+    {
+      "id": "en",
+      "french": "en",
+      "english": "in (time taken)",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "Elle a terminé l’exercice en dix minutes.",
+          "translation": "She finished the exercise in ten minutes."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle a terminé l’exercice ___ dix minutes.",
+        "answer": "en",
+        "options": [
+          "en",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "dans",
+      "french": "dans",
+      "english": "in (from now)",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "Le film commence dans vingt minutes.",
+          "translation": "The film starts in twenty minutes."
+        }
+      ],
+      "quiz": {
+        "sentence": "Le film commence ___ vingt minutes.",
+        "answer": "dans",
+        "options": [
+          "dans",
+          "depuis",
+          "pendant",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "il_y_a",
+      "french": "il y a",
+      "english": "ago",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "Je l’ai vu il y a deux jours.",
+          "translation": "I saw him two days ago."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je l’ai vu ___ deux jours.",
+        "answer": "il y a",
+        "options": [
+          "il y a",
+          "dans",
+          "depuis",
+          "pendant"
+        ]
+      }
+    },
+    {
+      "id": "cela_fait",
+      "french": "cela fait",
+      "english": "it has been (a duration)",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "cela fait trois ans que nous nous connaissons.",
+          "translation": "We have known each other for three years."
+        }
+      ],
+      "quiz": {
+        "sentence": "___ trois ans que nous nous connaissons.",
+        "answer": "cela fait",
+        "options": [
+          "cela fait",
+          "Dans",
+          "Pendant",
+          "Il y a"
+        ]
+      }
+    },
+    {
+      "id": "au_bout_de",
+      "french": "au bout de",
+      "english": "after (a duration)",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "au bout de deux heures, elle a trouvé la solution.",
+          "translation": "After two hours, she found the solution."
+        }
+      ],
+      "quiz": {
+        "sentence": "___ deux heures, elle a trouvé la solution.",
+        "answer": "au bout de",
+        "options": [
+          "au bout de",
+          "Depuis",
+          "Dans",
+          "Vers"
+        ]
+      }
+    },
+    {
+      "id": "en_moins_de",
+      "french": "en moins de",
+      "english": "in less than",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "Il a fini en moins de cinq minutes.",
+          "translation": "He finished in less than five minutes."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il a fini ___ cinq minutes.",
+        "answer": "en moins de",
+        "options": [
+          "en moins de",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "en_plus_de",
+      "french": "en plus de",
+      "english": "in more than",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "Elle a couru le marathon en plus de quatre heures.",
+          "translation": "She ran the marathon in more than four hours."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle a couru le marathon ___ quatre heures.",
+        "answer": "en plus de",
+        "options": [
+          "en plus de",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "tout_au_long_de",
+      "french": "tout au long de",
+      "english": "throughout",
+      "category": "duration",
+      "examples": [
+        {
+          "sentence": "Elle a pris des notes tout au long de la réunion.",
+          "translation": "She took notes throughout the meeting."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle a pris des notes ___ la réunion.",
+        "answer": "tout au long de",
+        "options": [
+          "tout au long de",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "avant_de",
+      "french": "avant de",
+      "english": "before (+ infinitive)",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "avant de partir, ferme la porte.",
+          "translation": "Before leaving, close the door."
+        }
+      ],
+      "quiz": {
+        "sentence": "___ partir, ferme la porte.",
+        "answer": "avant de",
+        "options": [
+          "avant de",
+          "Après",
+          "Depuis",
+          "Pendant"
+        ]
+      }
+    },
+    {
+      "id": "apres_avoir",
+      "french": "après avoir",
+      "english": "after having (+ past participle)",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "après avoir mangé, il est sorti.",
+          "translation": "After eating, he went out."
+        }
+      ],
+      "quiz": {
+        "sentence": "___ mangé, il est sorti.",
+        "answer": "après avoir",
+        "options": [
+          "après avoir",
+          "Avant",
+          "Depuis",
+          "Pendant"
+        ]
+      }
+    },
+    {
+      "id": "auparavant",
+      "french": "auparavant",
+      "english": "previously / beforehand",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "Il vivait auparavant à Marseille.",
+          "translation": "He previously lived in Marseille."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il vivait ___ à Marseille.",
+        "answer": "auparavant",
+        "options": [
+          "auparavant",
+          "demain",
+          "bientôt",
+          "désormais"
+        ]
+      }
+    },
+    {
+      "id": "ensuite",
+      "french": "ensuite",
+      "english": "then / next",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "D’abord, nous étudions. ensuite, nous faisons une pause.",
+          "translation": "First, we study. Then we take a break."
+        }
+      ],
+      "quiz": {
+        "sentence": "D’abord, nous étudions. ___, nous faisons une pause.",
+        "answer": "ensuite",
+        "options": [
+          "ensuite",
+          "Hier",
+          "Jamais",
+          "Depuis"
+        ]
+      }
+    },
+    {
+      "id": "puis",
+      "french": "puis",
+      "english": "then",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "Elle a déjeuné, puis elle est partie.",
+          "translation": "She had lunch, then left."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle a déjeuné, ___ elle est partie.",
+        "answer": "puis",
+        "options": [
+          "puis",
+          "depuis",
+          "hier",
+          "jamais"
+        ]
+      }
+    },
+    {
+      "id": "enfin",
+      "french": "enfin",
+      "english": "finally",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "enfin, après trois essais, il a réussi.",
+          "translation": "Finally, after three attempts, he succeeded."
+        }
+      ],
+      "quiz": {
+        "sentence": "___, après trois essais, il a réussi.",
+        "answer": "enfin",
+        "options": [
+          "enfin",
+          "Hier",
+          "Depuis",
+          "Demain"
+        ]
+      }
+    },
+    {
+      "id": "entre_temps",
+      "french": "entre-temps",
+      "english": "in the meantime",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "Le bus était en retard. entre-temps, nous avons pris un café.",
+          "translation": "The bus was late. In the meantime, we had coffee."
+        }
+      ],
+      "quiz": {
+        "sentence": "Le bus était en retard. ___, nous avons pris un café.",
+        "answer": "entre-temps",
+        "options": [
+          "entre-temps",
+          "Demain",
+          "Depuis",
+          "Jamais"
+        ]
+      }
+    },
+    {
+      "id": "desormais",
+      "french": "désormais",
+      "english": "from now on",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "désormais, je travaillerai le matin.",
+          "translation": "From now on, I will work in the morning."
+        }
+      ],
+      "quiz": {
+        "sentence": "___, je travaillerai le matin.",
+        "answer": "désormais",
+        "options": [
+          "désormais",
+          "Hier",
+          "Auparavant",
+          "Jadis"
+        ]
+      }
+    },
+    {
+      "id": "jusque_la",
+      "french": "jusque-là",
+      "english": "until then",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "jusque-là, personne ne connaissait la réponse.",
+          "translation": "Until then, nobody knew the answer."
+        }
+      ],
+      "quiz": {
+        "sentence": "___, personne ne connaissait la réponse.",
+        "answer": "jusque-là",
+        "options": [
+          "jusque-là",
+          "Demain",
+          "Désormais",
+          "Ensuite"
+        ]
+      }
+    },
+    {
+      "id": "aussitot",
+      "french": "aussitôt",
+      "english": "immediately",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "Il a entendu l’alarme et est sorti aussitôt.",
+          "translation": "He heard the alarm and immediately went out."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il a entendu l’alarme et est sorti ___.",
+        "answer": "aussitôt",
+        "options": [
+          "aussitôt",
+          "hier",
+          "demain",
+          "autrefois"
+        ]
+      }
+    },
+    {
+      "id": "tout_de_suite",
+      "french": "tout de suite",
+      "english": "right away",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "Viens ici tout de suite !",
+          "translation": "Come here right away!"
+        }
+      ],
+      "quiz": {
+        "sentence": "Viens ici ___ !",
+        "answer": "tout de suite",
+        "options": [
+          "tout de suite",
+          "hier",
+          "autrefois",
+          "jadis"
+        ]
+      }
+    },
+    {
+      "id": "bientot",
+      "french": "bientôt",
+      "english": "soon",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "Les vacances commencent bientôt.",
+          "translation": "The holidays start soon."
+        }
+      ],
+      "quiz": {
+        "sentence": "Les vacances commencent ___.",
+        "answer": "bientôt",
+        "options": [
+          "bientôt",
+          "hier",
+          "jadis",
+          "autrefois"
+        ]
+      }
+    },
+    {
+      "id": "tard",
+      "french": "tard",
+      "english": "late",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "Nous sommes rentrés très tard.",
+          "translation": "We came home very late."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous sommes rentrés très ___.",
+        "answer": "tard",
+        "options": [
+          "tard",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "tot",
+      "french": "tôt",
+      "english": "early",
+      "category": "sequence",
+      "examples": [
+        {
+          "sentence": "Je me lève tôt chaque matin.",
+          "translation": "I get up early every morning."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je me lève ___ chaque matin.",
+        "answer": "tôt",
+        "options": [
+          "tôt",
+          "depuis",
+          "demain",
+          "hier"
+        ]
+      }
+    },
+    {
+      "id": "toujours",
+      "french": "toujours",
+      "english": "always",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Elle arrive toujours à l’heure.",
+          "translation": "She always arrives on time."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle arrive ___ à l’heure.",
+        "answer": "toujours",
+        "options": [
+          "toujours",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "souvent",
+      "french": "souvent",
+      "english": "often",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Nous allons souvent au cinéma.",
+          "translation": "We often go to the cinema."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous allons ___ au cinéma.",
+        "answer": "souvent",
+        "options": [
+          "souvent",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "parfois",
+      "french": "parfois",
+      "english": "sometimes",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Il pleut parfois en été.",
+          "translation": "It sometimes rains in summer."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il pleut ___ en été.",
+        "answer": "parfois",
+        "options": [
+          "parfois",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "quelquefois",
+      "french": "quelquefois",
+      "english": "sometimes",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Je prends quelquefois le métro.",
+          "translation": "I sometimes take the metro."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je prends ___ le métro.",
+        "answer": "quelquefois",
+        "options": [
+          "quelquefois",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "rarement",
+      "french": "rarement",
+      "english": "rarely",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Elle mange rarement au restaurant.",
+          "translation": "She rarely eats at restaurants."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle mange ___ au restaurant.",
+        "answer": "rarement",
+        "options": [
+          "rarement",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "jamais",
+      "french": "jamais",
+      "english": "never (with ne)",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Il ne fume jamais.",
+          "translation": "He never smokes."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il ne fume ___.",
+        "answer": "jamais",
+        "options": [
+          "jamais",
+          "souvent",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "de_temps_en_temps",
+      "french": "de temps en temps",
+      "english": "from time to time",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Nous nous appelons de temps en temps.",
+          "translation": "We call each other from time to time."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous nous appelons ___.",
+        "answer": "de temps en temps",
+        "options": [
+          "de temps en temps",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "tous_les_jours",
+      "french": "tous les jours",
+      "english": "every day",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Je lis tous les jours avant de dormir.",
+          "translation": "I read every day before sleeping."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je lis ___ avant de dormir.",
+        "answer": "tous les jours",
+        "options": [
+          "tous les jours",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "chaque_jour",
+      "french": "chaque jour",
+      "english": "each day",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Elle marche chaque jour pour aller au travail.",
+          "translation": "She walks to work each day."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle marche ___ pour aller au travail.",
+        "answer": "chaque jour",
+        "options": [
+          "chaque jour",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "une_fois_par_semaine",
+      "french": "une fois par semaine",
+      "english": "once a week",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Nous faisons du sport une fois par semaine.",
+          "translation": "We exercise once a week."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous faisons du sport ___.",
+        "answer": "une fois par semaine",
+        "options": [
+          "une fois par semaine",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "deux_fois_par_mois",
+      "french": "deux fois par mois",
+      "english": "twice a month",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Ils se réunissent deux fois par mois.",
+          "translation": "They meet twice a month."
+        }
+      ],
+      "quiz": {
+        "sentence": "Ils se réunissent ___.",
+        "answer": "deux fois par mois",
+        "options": [
+          "deux fois par mois",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "regulierement",
+      "french": "régulièrement",
+      "english": "regularly",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Il s’entraîne régulièrement.",
+          "translation": "He trains regularly."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il s’entraîne ___.",
+        "answer": "régulièrement",
+        "options": [
+          "régulièrement",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "quotidiennement",
+      "french": "quotidiennement",
+      "english": "daily",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Elle vérifie ses messages quotidiennement.",
+          "translation": "She checks her messages daily."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle vérifie ses messages ___.",
+        "answer": "quotidiennement",
+        "options": [
+          "quotidiennement",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "hebdomadairement",
+      "french": "hebdomadairement",
+      "english": "weekly",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Le rapport est publié hebdomadairement.",
+          "translation": "The report is published weekly."
+        }
+      ],
+      "quiz": {
+        "sentence": "Le rapport est publié ___.",
+        "answer": "hebdomadairement",
+        "options": [
+          "hebdomadairement",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "mensuellement",
+      "french": "mensuellement",
+      "english": "monthly",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "Le loyer est payé mensuellement.",
+          "translation": "The rent is paid monthly."
+        }
+      ],
+      "quiz": {
+        "sentence": "Le loyer est payé ___.",
+        "answer": "mensuellement",
+        "options": [
+          "mensuellement",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "annuellement",
+      "french": "annuellement",
+      "english": "annually",
+      "category": "frequency",
+      "examples": [
+        {
+          "sentence": "La fête a lieu annuellement.",
+          "translation": "The festival takes place annually."
+        }
+      ],
+      "quiz": {
+        "sentence": "La fête a lieu ___.",
+        "answer": "annuellement",
+        "options": [
+          "annuellement",
+          "hier",
+          "demain",
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "le_lundi",
+      "french": "le lundi",
+      "english": "on Mondays",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Je travaille le lundi matin.",
+          "translation": "I work on Monday mornings."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je travaille ___ matin.",
+        "answer": "le lundi",
+        "options": [
+          "le lundi",
+          "en lundi",
+          "au lundi",
+          "dans lundi"
+        ]
+      }
+    },
+    {
+      "id": "lundi",
+      "french": "lundi",
+      "english": "on Monday",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Je pars lundi prochain.",
+          "translation": "I leave next Monday."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je pars ___ prochain.",
+        "answer": "lundi",
+        "options": [
+          "lundi",
+          "en lundi",
+          "au lundi",
+          "dans lundi"
+        ]
+      }
+    },
+    {
+      "id": "en_janvier",
+      "french": "en janvier",
+      "english": "in January",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Les examens commencent en janvier.",
+          "translation": "The exams begin in January."
+        }
+      ],
+      "quiz": {
+        "sentence": "Les examens commencent ___.",
+        "answer": "en janvier",
+        "options": [
+          "en janvier",
+          "au janvier",
+          "à janvier",
+          "sur janvier"
+        ]
+      }
+    },
+    {
+      "id": "en_ete",
+      "french": "en été",
+      "english": "in summer",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Nous voyageons en été .",
+          "translation": "We travel in summer."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous voyageons ___ .",
+        "answer": "en été",
+        "options": [
+          "en été",
+          "au été",
+          "à été",
+          "sur été"
+        ]
+      }
+    },
+    {
+      "id": "au_printemps",
+      "french": "au printemps",
+      "english": "in spring",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Les fleurs poussent au printemps.",
+          "translation": "Flowers grow in spring."
+        }
+      ],
+      "quiz": {
+        "sentence": "Les fleurs poussent ___.",
+        "answer": "au printemps",
+        "options": [
+          "au printemps",
+          "en printemps",
+          "à printemps",
+          "sur printemps"
+        ]
+      }
+    },
+    {
+      "id": "en_automne",
+      "french": "en automne",
+      "english": "in autumn",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Les feuilles tombent en automne.",
+          "translation": "The leaves fall in autumn."
+        }
+      ],
+      "quiz": {
+        "sentence": "Les feuilles tombent ___.",
+        "answer": "en automne",
+        "options": [
+          "en automne",
+          "au automne",
+          "à automne",
+          "sur automne"
+        ]
+      }
+    },
+    {
+      "id": "en_hiver",
+      "french": "en hiver",
+      "english": "in winter",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Il neige souvent en hiver.",
+          "translation": "It often snows in winter."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il neige souvent ___.",
+        "answer": "en hiver",
+        "options": [
+          "en hiver",
+          "au hiver",
+          "à hiver",
+          "sur hiver"
+        ]
+      }
+    },
+    {
+      "id": "a_noel",
+      "french": "à Noël",
+      "english": "at Christmas",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Nous nous retrouvons à Noël .",
+          "translation": "We get together at Christmas."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous nous retrouvons ___ .",
+        "answer": "à Noël",
+        "options": [
+          "à Noël",
+          "en Noël",
+          "au Noël",
+          "dans Noël"
+        ]
+      }
+    },
+    {
+      "id": "le_matin",
+      "french": "le matin",
+      "english": "in the morning",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Je bois du café le matin .",
+          "translation": "I drink coffee in the morning."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je bois du café ___ .",
+        "answer": "le matin",
+        "options": [
+          "le matin",
+          "en matin",
+          "à matin",
+          "au matin"
+        ]
+      }
+    },
+    {
+      "id": "lapres_midi",
+      "french": "l’après-midi",
+      "english": "in the afternoon",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Je travaille l’après-midi .",
+          "translation": "I work in the afternoon."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je travaille ___ .",
+        "answer": "l’après-midi",
+        "options": [
+          "l’après-midi",
+          "en après-midi",
+          "à après-midi",
+          "sur après-midi"
+        ]
+      }
+    },
+    {
+      "id": "le_soir",
+      "french": "le soir",
+      "english": "in the evening",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Je lis le soir .",
+          "translation": "I read in the evening."
+        }
+      ],
+      "quiz": {
+        "sentence": "Je lis ___ .",
+        "answer": "le soir",
+        "options": [
+          "le soir",
+          "en soir",
+          "à soir",
+          "au soir"
+        ]
+      }
+    },
+    {
+      "id": "la_nuit",
+      "french": "la nuit",
+      "english": "at night",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "La ville est calme la nuit .",
+          "translation": "The city is quiet at night."
+        }
+      ],
+      "quiz": {
+        "sentence": "La ville est calme ___ .",
+        "answer": "la nuit",
+        "options": [
+          "la nuit",
+          "en nuit",
+          "à nuit",
+          "au nuit"
+        ]
+      }
+    },
+    {
+      "id": "a_midi",
+      "french": "à midi",
+      "english": "at noon",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "On déjeune à midi .",
+          "translation": "We have lunch at noon."
+        }
+      ],
+      "quiz": {
+        "sentence": "On déjeune ___ .",
+        "answer": "à midi",
+        "options": [
+          "à midi",
+          "en midi",
+          "au midi",
+          "sur midi"
+        ]
+      }
+    },
+    {
+      "id": "a_minuit",
+      "french": "à minuit",
+      "english": "at midnight",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Le film se termine à minuit .",
+          "translation": "The film ends at midnight."
+        }
+      ],
+      "quiz": {
+        "sentence": "Le film se termine ___ .",
+        "answer": "à minuit",
+        "options": [
+          "à minuit",
+          "en minuit",
+          "au minuit",
+          "sur minuit"
+        ]
+      }
+    },
+    {
+      "id": "au_debut_de",
+      "french": "au début de",
+      "english": "at the beginning of",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Nous sommes partis au début de la semaine.",
+          "translation": "We left at the beginning of the week."
+        }
+      ],
+      "quiz": {
+        "sentence": "Nous sommes partis ___ la semaine.",
+        "answer": "au début de",
+        "options": [
+          "au début de",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "a_la_fin_de",
+      "french": "à la fin de",
+      "english": "at the end of",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Il reviendra à la fin de la journée.",
+          "translation": "He will return at the end of the day."
+        }
+      ],
+      "quiz": {
+        "sentence": "Il reviendra ___ la journée.",
+        "answer": "à la fin de",
+        "options": [
+          "à la fin de",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    },
+    {
+      "id": "au_milieu_de",
+      "french": "au milieu de",
+      "english": "in the middle of",
+      "category": "calendar",
+      "examples": [
+        {
+          "sentence": "Elle a téléphoné au milieu de la nuit.",
+          "translation": "She called in the middle of the night."
+        }
+      ],
+      "quiz": {
+        "sentence": "Elle a téléphoné ___ la nuit.",
+        "answer": "au milieu de",
+        "options": [
+          "au milieu de",
+          "depuis",
+          "dans",
+          "il y a"
+        ]
+      }
+    }
+  ],
+  "timeline": {
+    "units": [
+      "day",
+      "week",
+      "month",
+      "year"
+    ],
+    "references": [
+      "today",
+      "event"
+    ],
+    "days": [
+      {
+        "id": "hier",
+        "french": "hier",
+        "english": "yesterday",
+        "offset": -1,
+        "reference": "today"
+      },
+      {
+        "id": "avant_hier",
+        "french": "avant-hier",
+        "english": "the day before yesterday",
+        "offset": -2,
+        "reference": "today"
+      },
+      {
+        "id": "aujourdhui",
+        "french": "aujourd’hui",
+        "english": "today",
+        "offset": 0,
+        "reference": "today"
+      },
+      {
+        "id": "demain",
+        "french": "demain",
+        "english": "tomorrow",
+        "offset": 1,
+        "reference": "today"
+      },
+      {
+        "id": "apres_demain",
+        "french": "après-demain",
+        "english": "the day after tomorrow",
+        "offset": 2,
+        "reference": "today"
+      },
+      {
+        "id": "la_veille",
+        "french": "la veille",
+        "english": "the day before",
+        "offset": -1,
+        "reference": "event"
+      },
+      {
+        "id": "lavant_veille",
+        "french": "l’avant-veille",
+        "english": "two days before",
+        "offset": -2,
+        "reference": "event"
+      },
+      {
+        "id": "ce_jour_la",
+        "french": "ce jour-là",
+        "english": "that day",
+        "offset": 0,
+        "reference": "event"
+      },
+      {
+        "id": "le_lendemain",
+        "french": "le lendemain",
+        "english": "the following day",
+        "offset": 1,
+        "reference": "event"
+      },
+      {
+        "id": "le_surlendemain",
+        "french": "le surlendemain",
+        "english": "two days later",
+        "offset": 2,
+        "reference": "event"
+      }
+    ]
+  }
+}

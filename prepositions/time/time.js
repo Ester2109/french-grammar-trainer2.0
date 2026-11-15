@@ -1,2 +1,1 @@
-"use strict";
-// Add this category's game logic here.
+fetch('./time.json').then(r=>{if(!r.ok)throw Error('Unable to load data');return r.json()}).then(d=>document.querySelector('#data-info').textContent=`Includes ${d.expressions.length} French time expressions across ${d.categories.length} categories.`).catch(()=>document.querySelector('#data-info').textContent='Tip: Open this project with Live Server to load the JSON file.');
