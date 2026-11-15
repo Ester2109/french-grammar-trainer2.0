@@ -1,0 +1,842 @@
+[
+  {
+    "id": "sur",
+    "french": "sur",
+    "english": "on",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Le livre est sur la table.",
+        "translation": "The book is on the table."
+      }
+    ]
+  },
+  {
+    "id": "sous",
+    "french": "sous",
+    "english": "under",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Le chat dort sous la chaise.",
+        "translation": "The cat sleeps under the chair."
+      }
+    ]
+  },
+  {
+    "id": "dans",
+    "french": "dans",
+    "english": "in; inside",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Les clés sont dans le sac.",
+        "translation": "The keys are in the bag."
+      }
+    ]
+  },
+  {
+    "id": "a",
+    "french": "à",
+    "english": "at; in",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Elle habite à Lyon.",
+        "translation": "She lives in Lyon."
+      }
+    ]
+  },
+  {
+    "id": "en",
+    "french": "en",
+    "english": "in",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Il vit en France.",
+        "translation": "He lives in France."
+      }
+    ]
+  },
+  {
+    "id": "devant",
+    "french": "devant",
+    "english": "in front of",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Le vélo est devant la maison.",
+        "translation": "The bicycle is in front of the house."
+      }
+    ]
+  },
+  {
+    "id": "derriere",
+    "french": "derrière",
+    "english": "behind",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Le jardin est derrière l'école.",
+        "translation": "The garden is behind the school."
+      }
+    ]
+  },
+  {
+    "id": "entre",
+    "french": "entre",
+    "english": "between",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "La pharmacie est entre la banque et la boulangerie.",
+        "translation": "The pharmacy is between the bank and the bakery."
+      }
+    ]
+  },
+  {
+    "id": "parmi",
+    "french": "parmi",
+    "english": "among",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Elle se trouve parmi les invités.",
+        "translation": "She is among the guests."
+      }
+    ]
+  },
+  {
+    "id": "chez",
+    "french": "chez",
+    "english": "at someone's home or workplace",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Nous sommes chez Marie.",
+        "translation": "We are at Marie's place."
+      }
+    ]
+  },
+  {
+    "id": "contre",
+    "french": "contre",
+    "english": "against",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "L'échelle est contre le mur.",
+        "translation": "The ladder is against the wall."
+      }
+    ]
+  },
+  {
+    "id": "pres_de",
+    "french": "près de",
+    "english": "near",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Le musée est près de la gare.",
+        "translation": "The museum is near the station."
+      }
+    ]
+  },
+  {
+    "id": "a_cote_de",
+    "french": "à côté de",
+    "english": "next to",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Le café est à côté du cinéma.",
+        "translation": "The café is next to the cinema."
+      }
+    ]
+  },
+  {
+    "id": "loin_de",
+    "french": "loin de",
+    "english": "far from",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Le village est loin de la ville.",
+        "translation": "The village is far from the city."
+      }
+    ]
+  },
+  {
+    "id": "au_dessus_de",
+    "french": "au-dessus de",
+    "english": "above",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "La lampe est au-dessus de la table.",
+        "translation": "The lamp is above the table."
+      }
+    ]
+  },
+  {
+    "id": "au_dessous_de",
+    "french": "au-dessous de",
+    "english": "below",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Le parking est au-dessous du bâtiment.",
+        "translation": "The parking area is below the building."
+      }
+    ]
+  },
+  {
+    "id": "en_face_de",
+    "french": "en face de",
+    "english": "opposite; across from",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "La poste est en face de la mairie.",
+        "translation": "The post office is opposite the town hall."
+      }
+    ]
+  },
+  {
+    "id": "autour_de",
+    "french": "autour de",
+    "english": "around",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Il y a des arbres autour de la maison.",
+        "translation": "There are trees around the house."
+      }
+    ]
+  },
+  {
+    "id": "au_milieu_de",
+    "french": "au milieu de",
+    "english": "in the middle of",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Une fontaine se trouve au milieu de la place.",
+        "translation": "A fountain stands in the middle of the square."
+      }
+    ]
+  },
+  {
+    "id": "au_centre_de",
+    "french": "au centre de",
+    "english": "at the center of",
+    "category": "basic",
+    "examples": [
+      {
+        "sentence": "Le monument est au centre du parc.",
+        "translation": "The monument is at the center of the park."
+      }
+    ]
+  },
+  {
+    "id": "a_gauche_de",
+    "french": "à gauche de",
+    "english": "to the left of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "La librairie est à gauche de la banque.",
+        "translation": "The bookshop is to the left of the bank."
+      }
+    ]
+  },
+  {
+    "id": "a_droite_de",
+    "french": "à droite de",
+    "english": "to the right of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "La pharmacie est à droite de la poste.",
+        "translation": "The pharmacy is to the right of the post office."
+      }
+    ]
+  },
+  {
+    "id": "a_l_interieur_de",
+    "french": "à l'intérieur de",
+    "english": "inside",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Il y a une piscine à l'intérieur du bâtiment.",
+        "translation": "There is a swimming pool inside the building."
+      }
+    ]
+  },
+  {
+    "id": "a_l_exterieur_de",
+    "french": "à l'extérieur de",
+    "english": "outside",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Les vélos sont à l'extérieur du garage.",
+        "translation": "The bicycles are outside the garage."
+      }
+    ]
+  },
+  {
+    "id": "au_fond_de",
+    "french": "au fond de",
+    "english": "at the back of; at the far end of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Les toilettes sont au fond du couloir.",
+        "translation": "The toilets are at the end of the corridor."
+      }
+    ]
+  },
+  {
+    "id": "au_bout_de",
+    "french": "au bout de",
+    "english": "at the end of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "La boulangerie est au bout de la rue.",
+        "translation": "The bakery is at the end of the street."
+      }
+    ]
+  },
+  {
+    "id": "au_bord_de",
+    "french": "au bord de",
+    "english": "at the edge of; beside",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Ils habitent au bord du lac.",
+        "translation": "They live beside the lake."
+      }
+    ]
+  },
+  {
+    "id": "le_long_de",
+    "french": "le long de",
+    "english": "along",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Des arbres poussent le long de la route.",
+        "translation": "Trees grow along the road."
+      }
+    ]
+  },
+  {
+    "id": "tout_pres_de",
+    "french": "tout près de",
+    "english": "very close to",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "L'arrêt de bus est tout près de chez moi.",
+        "translation": "The bus stop is very close to my home."
+      }
+    ]
+  },
+  {
+    "id": "a_proximite_de",
+    "french": "à proximité de",
+    "english": "in the vicinity of; near",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "L'hôtel est à proximité de l'aéroport.",
+        "translation": "The hotel is near the airport."
+      }
+    ]
+  },
+  {
+    "id": "aux_alentours_de",
+    "french": "aux alentours de",
+    "english": "in the area around",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Il y a des sentiers aux alentours du village.",
+        "translation": "There are paths in the area around the village."
+      }
+    ]
+  },
+  {
+    "id": "a_l_ecart_de",
+    "french": "à l'écart de",
+    "english": "away from; apart from",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "La maison est à l'écart de la route.",
+        "translation": "The house is away from the road."
+      }
+    ]
+  },
+  {
+    "id": "vis_a_vis_de",
+    "french": "vis-à-vis de",
+    "english": "opposite; facing",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Le restaurant est vis-à-vis de la mairie.",
+        "translation": "The restaurant is opposite the town hall."
+      }
+    ]
+  },
+  {
+    "id": "au_sein_de",
+    "french": "au sein de",
+    "english": "within",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Le laboratoire se trouve au sein de l'université.",
+        "translation": "The laboratory is located within the university."
+      }
+    ]
+  },
+  {
+    "id": "a_la_surface_de",
+    "french": "à la surface de",
+    "english": "on the surface of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Une feuille flotte à la surface de l'eau.",
+        "translation": "A leaf floats on the surface of the water."
+      }
+    ]
+  },
+  {
+    "id": "au_pied_de",
+    "french": "au pied de",
+    "english": "at the foot of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Le village est au pied de la montagne.",
+        "translation": "The village is at the foot of the mountain."
+      }
+    ]
+  },
+  {
+    "id": "au_sommet_de",
+    "french": "au sommet de",
+    "english": "at the summit of; on top of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Il y a une croix au sommet de la colline.",
+        "translation": "There is a cross at the top of the hill."
+      }
+    ]
+  },
+  {
+    "id": "en_haut_de",
+    "french": "en haut de",
+    "english": "at the top of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "La chambre est en haut de l'escalier.",
+        "translation": "The bedroom is at the top of the stairs."
+      }
+    ]
+  },
+  {
+    "id": "en_bas_de",
+    "french": "en bas de",
+    "english": "at the bottom of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "Le garage est en bas de la pente.",
+        "translation": "The garage is at the bottom of the slope."
+      }
+    ]
+  },
+  {
+    "id": "au_coin_de",
+    "french": "au coin de",
+    "english": "at the corner of",
+    "category": "specific",
+    "examples": [
+      {
+        "sentence": "La boulangerie est au coin de la rue.",
+        "translation": "The bakery is at the corner of the street."
+      }
+    ]
+  },
+  {
+    "id": "au",
+    "french": "au",
+    "english": "in; at (masculine place name)",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Il habite au Canada.",
+        "translation": "He lives in Canada."
+      }
+    ]
+  },
+  {
+    "id": "aux",
+    "french": "aux",
+    "english": "in; at (plural place name)",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Elle habite aux États-Unis.",
+        "translation": "She lives in the United States."
+      }
+    ]
+  },
+  {
+    "id": "de",
+    "french": "de",
+    "english": "from; of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Il vient de Paris.",
+        "translation": "He comes from Paris."
+      }
+    ]
+  },
+  {
+    "id": "hors_de",
+    "french": "hors de",
+    "english": "outside of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Le refuge se trouve hors de la ville.",
+        "translation": "The shelter is located outside the city."
+      }
+    ]
+  },
+  {
+    "id": "en_dehors_de",
+    "french": "en dehors de",
+    "english": "outside of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Le camping est en dehors du village.",
+        "translation": "The campsite is outside the village."
+      }
+    ]
+  },
+  {
+    "id": "a_l_est_de",
+    "french": "à l'est de",
+    "english": "east of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "La ville est à l'est de Lyon.",
+        "translation": "The town is east of Lyon."
+      }
+    ]
+  },
+  {
+    "id": "a_l_ouest_de",
+    "french": "à l'ouest de",
+    "english": "west of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Le lac est à l'ouest du village.",
+        "translation": "The lake is west of the village."
+      }
+    ]
+  },
+  {
+    "id": "au_nord_de",
+    "french": "au nord de",
+    "english": "north of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Lille est au nord de Paris.",
+        "translation": "Lille is north of Paris."
+      }
+    ]
+  },
+  {
+    "id": "au_sud_de",
+    "french": "au sud de",
+    "english": "south of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Marseille est au sud de Lyon.",
+        "translation": "Marseille is south of Lyon."
+      }
+    ]
+  },
+  {
+    "id": "en_amont_de",
+    "french": "en amont de",
+    "english": "upstream of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Le barrage est en amont du village.",
+        "translation": "The dam is upstream of the village."
+      }
+    ]
+  },
+  {
+    "id": "en_aval_de",
+    "french": "en aval de",
+    "english": "downstream of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "La station d'épuration est en aval de la ville.",
+        "translation": "The wastewater treatment plant is downstream of the city."
+      }
+    ]
+  },
+  {
+    "id": "a_la_peripherie_de",
+    "french": "à la périphérie de",
+    "english": "on the outskirts of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "L'usine est à la périphérie de la ville.",
+        "translation": "The factory is on the outskirts of the city."
+      }
+    ]
+  },
+  {
+    "id": "a_la_frontiere_de",
+    "french": "à la frontière de",
+    "english": "at the border of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "Le village est à la frontière de la France et de l'Italie.",
+        "translation": "The village is at the border of France and Italy."
+      }
+    ]
+  },
+  {
+    "id": "a_la_limite_de",
+    "french": "à la limite de",
+    "english": "at the boundary of",
+    "category": "geographical",
+    "examples": [
+      {
+        "sentence": "La maison est à la limite de la forêt.",
+        "translation": "The house is at the edge of the forest."
+      }
+    ]
+  },
+  {
+    "id": "au_travers_de",
+    "french": "au travers de",
+    "english": "through; across",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "On aperçoit le jardin au travers de la vitre.",
+        "translation": "We can see the garden through the windowpane."
+      }
+    ]
+  },
+  {
+    "id": "a_travers",
+    "french": "à travers",
+    "english": "through; across",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "On voit la montagne à travers la fenêtre.",
+        "translation": "We can see the mountain through the window."
+      }
+    ]
+  },
+  {
+    "id": "par_dela",
+    "french": "par-delà",
+    "english": "beyond",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "On distingue des collines par-delà la rivière.",
+        "translation": "Hills can be seen beyond the river."
+      }
+    ]
+  },
+  {
+    "id": "au_dela_de",
+    "french": "au-delà de",
+    "english": "beyond",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Le sentier continue au-delà du pont.",
+        "translation": "The path continues beyond the bridge."
+      }
+    ]
+  },
+  {
+    "id": "en_deca_de",
+    "french": "en deçà de",
+    "english": "on this side of; short of",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Le parking se trouve en deçà du tunnel.",
+        "translation": "The parking area is on this side of the tunnel."
+      }
+    ]
+  },
+  {
+    "id": "par_dessus",
+    "french": "par-dessus",
+    "english": "over; above",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Le chat regarde par-dessus le mur.",
+        "translation": "The cat looks over the wall."
+      }
+    ]
+  },
+  {
+    "id": "par_dessous",
+    "french": "par-dessous",
+    "english": "underneath; from below",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "L'eau passe par-dessous le pont.",
+        "translation": "The water passes underneath the bridge."
+      }
+    ]
+  },
+  {
+    "id": "a_cheval_sur",
+    "french": "à cheval sur",
+    "english": "straddling; spanning",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Le village est à cheval sur deux départements.",
+        "translation": "The village straddles two departments."
+      }
+    ]
+  },
+  {
+    "id": "a_l_arriere_de",
+    "french": "à l'arrière de",
+    "english": "at the rear of",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Le jardin est à l'arrière de la maison.",
+        "translation": "The garden is at the rear of the house."
+      }
+    ]
+  },
+  {
+    "id": "a_l_avant_de",
+    "french": "à l'avant de",
+    "english": "at the front of",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Le conducteur est assis à l'avant du bus.",
+        "translation": "The driver is seated at the front of the bus."
+      }
+    ]
+  },
+  {
+    "id": "en_retrait_de",
+    "french": "en retrait de",
+    "english": "set back from",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Le bâtiment est en retrait de la rue.",
+        "translation": "The building is set back from the street."
+      }
+    ]
+  },
+  {
+    "id": "a_hauteur_de",
+    "french": "à hauteur de",
+    "english": "level with; at the height of",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "La fenêtre est à hauteur de mes yeux.",
+        "translation": "The window is at eye level."
+      }
+    ]
+  },
+  {
+    "id": "a_l_aplomb_de",
+    "french": "à l'aplomb de",
+    "english": "directly above; vertically aligned with",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "La lampe est à l'aplomb de la table.",
+        "translation": "The lamp is directly above the table."
+      }
+    ]
+  },
+  {
+    "id": "a_l_abri_de",
+    "french": "à l'abri de",
+    "english": "sheltered from",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Le banc est à l'abri du vent.",
+        "translation": "The bench is sheltered from the wind."
+      }
+    ]
+  },
+  {
+    "id": "a_l_ombre_de",
+    "french": "à l'ombre de",
+    "english": "in the shade of",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Nous sommes assis à l'ombre d'un arbre.",
+        "translation": "We are sitting in the shade of a tree."
+      }
+    ]
+  },
+  {
+    "id": "sous_le_couvert_de",
+    "french": "sous le couvert de",
+    "english": "under the cover of",
+    "category": "advanced",
+    "examples": [
+      {
+        "sentence": "Le sentier passe sous le couvert des arbres.",
+        "translation": "The path runs under the cover of the trees."
+      }
+    ]
+  }
+]

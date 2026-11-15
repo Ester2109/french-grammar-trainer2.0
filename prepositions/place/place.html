@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Place & Position | French Grammar Trainer</title>
+  <link rel="stylesheet" href="place.css">
+  <script src="place.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="../../index.html">Français</a>
+    <nav><a href="../../index.html">Home</a><a href="../prepositions.html">Prepositions</a></nav>
+    <span class="nav-tag">French Grammar Trainer</span>
+  </header>
+  <main class="trainer">
+    <a class="back-button" href="../prepositions.html">← Back to prepositions</a>
+    <span class="section-label">FRENCH PREPOSITIONS</span>
+    <h1>📍 Place & Position</h1>
+    <p class="section-description">Practice French prepositions of place with four-choice questions.</p>
+
+    <section class="game-card" id="setup-screen">
+      <div class="intro-icon">📍</div>
+      <h2>Choose your practice</h2>
+      <p class="muted">Select one or more categories to include in your quiz.</p>
+      <fieldset class="category-options">
+        <legend>Categories</legend>
+        <label class="category-option"><input type="checkbox" id="select-all" checked> <span><strong>All categories</strong><small>Practice everything</small></span></label>
+        <label class="category-option"><input type="checkbox" name="category" value="basic" checked> <span><strong>Basic Place & Position</strong><small>Sur, sous, dans, devant…</small></span></label>
+        <label class="category-option"><input type="checkbox" name="category" value="specific" checked> <span><strong>Specific Positions</strong><small>À gauche de, au fond de…</small></span></label>
+        <label class="category-option"><input type="checkbox" name="category" value="geographical" checked> <span><strong>Distance & Geographical Location</strong><small>Au nord de, hors de…</small></span></label>
+        <label class="category-option"><input type="checkbox" name="category" value="advanced" checked> <span><strong>Advanced & Less Common Expressions</strong><small>Au-delà de, à cheval sur…</small></span></label>
+      </fieldset>
+      <label class="field-label" for="question-count">Number of questions</label>
+      <select id="question-count"><option>5</option><option selected>10</option><option>20</option><option>30</option><option>50</option><option>70</option></select>
+      <p id="setup-message" class="muted" role="status">Loading expressions…</p>
+      <button class="primary-button" id="start-button" disabled>Start practicing →</button>
+    </section>
+
+    <section class="game-card hidden" id="quiz-screen" aria-live="polite">
+      <div class="quiz-top"><span class="eyebrow">CHOOSE THE ENGLISH MEANING</span><span id="progress-label">1 / 10</span></div>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+      <div class="prompt"><h2 id="question-word"></h2><p>What does this French expression mean?</p></div>
+      <div class="answer-grid" id="answer-grid"></div>
+      <div id="feedback" class="feedback" role="status"></div>
+      <div class="example hidden" id="example-box"><strong>Example</strong><p id="example-fr"></p><p class="muted" id="example-en"></p></div>
+      <button class="primary-button next-button hidden" id="next-button" type="button">Next question →</button>
+      <button class="secondary-button" id="quit-button">← Back to setup</button>
+    </section>
+
+    <section class="game-card results hidden" id="results-screen">
+      <div class="intro-icon">🏁</div><h2>Practice complete!</h2>
+      <p class="score" id="score-label"></p><p class="muted" id="score-message"></p>
+      <div id="mistakes"></div>
+      <button class="primary-button" id="again-button">Play again →</button>
+    </section>
+  </main>
+  <footer>
+    
+    <p>Made by Ester Halvorsen ❤️</p>
+    
+  <span
+      class="footer-flag"
+      aria-label="French flag"
+    ></span>
+  </footer>
+</body>
+</html>
