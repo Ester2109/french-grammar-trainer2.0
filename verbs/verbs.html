@@ -1,0 +1,636 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>French Grammar Trainer</title>
+
+  <link rel="stylesheet" href="verbs.css">
+</head>
+
+<body>
+
+  <!-- =====================================
+       NAVIGATION
+  ====================================== -->
+
+  <header class="navbar">
+
+    <a href="../index.html" class="logo">
+      Français
+    </a>
+
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../index.html#categories">Grammar</a>
+    </nav>
+
+    <span class="nav-tag">
+      French Grammar Trainer
+    </span>
+
+  </header>
+
+
+  <main id="home">
+
+    <section id="trainer" class="trainer">
+
+      <button
+        class="back-button"
+        id="back-button"
+        type="button"
+      >
+        ← Back to categories
+      </button>
+
+      <span class="section-label">
+        FRENCH CONJUGATION
+      </span>
+
+      <h2>
+        Practice your French verbs
+      </h2>
+
+      <p class="section-description">
+        Choose how you would like to learn.
+      </p>
+
+
+      <!-- =====================================
+           PRACTICE / GAME SELECTION
+      ====================================== -->
+
+      <div id="mode-selection" class="mode-grid">
+
+        <button
+          class="mode-card"
+          id="practice-btn"
+          type="button"
+        >
+
+          <span class="mode-icon">📚</span>
+
+          <h3>Practice Mode</h3>
+
+          <p>
+            Select a verb, grammatical mood and tense.
+            Practice at your own pace.
+          </p>
+
+          <span class="card-link">
+            Start practice →
+          </span>
+
+        </button>
+
+
+        <button
+          class="mode-card"
+          id="game-btn"
+          type="button"
+        >
+
+          <span class="mode-icon">🏆</span>
+
+          <h3>Game Mode</h3>
+
+          <p>
+            Challenge yourself with personally chosen
+            or randomly selected verbs and tenses.
+          </p>
+
+          <span class="card-link">
+            Start challenge →
+          </span>
+
+        </button>
+
+      </div>
+
+
+      <!-- =====================================
+           EXERCISE PANEL
+      ====================================== -->
+
+      <div
+        id="exercise-panel"
+        class="exercise-panel hidden"
+      >
+
+        <button
+          id="change-mode-btn"
+          class="back-button"
+          type="button"
+        >
+          ← Change mode
+        </button>
+
+
+        <!-- =====================================
+             PRACTICE SETTINGS
+        ====================================== -->
+
+        <div id="practice-settings" class="hidden">
+
+          <h3>
+            Choose your exercise
+          </h3>
+
+
+          <!-- PRACTICE FILTERS -->
+
+          <div class="verb-filter-panel">
+
+            <div class="verb-filter-grid">
+
+              <div>
+
+                <label for="verb-search">
+                  Search French or English
+                </label>
+
+                <input
+                  id="verb-search"
+                  type="search"
+                  placeholder="e.g. parler, to speak..."
+                  autocomplete="off"
+                >
+
+              </div>
+
+
+              <div>
+
+                <label for="practice-group">
+                  Verb group
+                </label>
+
+                <select id="practice-group">
+
+                  <option value="all">
+                    All groups
+                  </option>
+
+                  <option value="1">
+                    1st group (-er)
+                  </option>
+
+                  <option value="2">
+                    2nd group (-ir)
+                  </option>
+
+                  <option value="3">
+                    3rd group
+                  </option>
+
+                </select>
+
+              </div>
+
+
+              <div>
+
+                <label for="practice-regular">
+                  Regularity
+                </label>
+
+                <select id="practice-regular">
+
+                  <option value="all">
+                    Regular and irregular
+                  </option>
+
+                  <option value="true">
+                    Regular verbs
+                  </option>
+
+                  <option value="false">
+                    Irregular verbs
+                  </option>
+
+                </select>
+
+              </div>
+
+            </div>
+
+            <span
+              id="verb-count"
+              aria-live="polite"
+            ></span>
+
+          </div>
+
+
+          <!-- PRACTICE EXERCISE OPTIONS -->
+
+          <div class="exercise-options">
+
+            <div>
+
+              <label for="verb-select">
+                Verb
+              </label>
+
+              <div class="verb-selection-row">
+
+                <select id="verb-select"></select>
+
+                <button
+                  id="practice-random-btn"
+                  class="verb-random-button"
+                  type="button"
+                >
+                  🎲 Random
+                </button>
+
+              </div>
+
+            </div>
+
+
+            <div>
+
+              <label for="mood-select">
+                Grammatical mood
+              </label>
+
+              <select id="mood-select"></select>
+
+            </div>
+
+
+            <div>
+
+              <label for="tense-select">
+                Verb tense
+              </label>
+
+              <select id="tense-select"></select>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- =====================================
+             GAME SETTINGS
+        ====================================== -->
+
+        <div id="game-settings" class="hidden">
+
+          <h3>
+            Set up your challenge
+          </h3>
+
+
+          <!-- =====================================
+               GAME TYPE SELECTION
+
+               CHOOSE VERBS IS DEFAULT
+          ====================================== -->
+
+          <div
+            class="game-type-selection"
+            role="group"
+            aria-label="Choose game type"
+          >
+
+            <!-- CHOOSE VERBS FIRST -->
+
+            <button
+              id="game-custom-mode-btn"
+              class="game-type-button active"
+              type="button"
+              aria-pressed="true"
+            >
+              ✏️ Choose verbs
+            </button>
+
+
+            <!-- RANDOM VERBS SECOND -->
+
+            <button
+              id="game-random-mode-btn"
+              class="game-type-button"
+              type="button"
+              aria-pressed="false"
+            >
+              🎲 Random verbs
+            </button>
+
+          </div>
+
+
+          <!-- =====================================
+               CHOOSE VERBS SETTINGS
+               DEFAULT VISIBLE
+          ====================================== -->
+
+          <div id="game-custom-settings">
+
+            <div class="verb-filter-panel">
+
+              <label for="game-custom-search">
+                Search and add verbs
+              </label>
+
+              <input
+                id="game-custom-search"
+                class="game-custom-search-input"
+                type="search"
+                placeholder="Search for a verb, e.g. aller..."
+                autocomplete="off"
+              >
+
+
+              <!-- SEARCH RESULTS -->
+
+              <div
+                id="game-custom-search-results"
+                class="game-custom-search-results hidden"
+                aria-live="polite"
+              ></div>
+
+
+              <!-- SELECTED VERBS -->
+
+              <div class="game-selected-header">
+
+                <label>
+                  Selected verbs
+                </label>
+
+                <span id="game-selected-count">
+                  0 verbs selected
+                </span>
+
+              </div>
+
+
+              <div
+                id="game-selected-verbs"
+                class="game-selected-verbs"
+                aria-live="polite"
+              ></div>
+
+
+              <p class="settings-hint">
+                Click a verb to add it, or use × to remove it.
+                Each selected verb will be tested in every
+                selected grammatical tense.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- =====================================
+               RANDOM VERBS SETTINGS
+               DEFAULT HIDDEN
+          ====================================== -->
+
+          <div
+            id="game-random-settings"
+            class="hidden"
+          >
+
+            <div class="settings-group">
+
+              <label for="question-count">
+                Number of questions
+              </label>
+
+              <select id="question-count">
+
+                <option value="5">
+                  5 questions
+                </option>
+
+                <option value="10" selected>
+                  10 questions
+                </option>
+
+                <option value="15">
+                  15 questions
+                </option>
+
+                <option value="20">
+                  20 questions
+                </option>
+
+                <option value="25">
+                  25 questions
+                </option>
+
+                <option value="30">
+                  30 questions
+                </option>
+
+                <option value="40">
+                  40 questions
+                </option>
+
+                <option value="50">
+                  50 questions
+                </option>
+
+                <option value="75">
+                  75 questions
+                </option>
+
+                <option value="100">
+                  100 questions
+                </option>
+
+              </select>
+
+              <p class="settings-hint">
+                Verbs will be randomly selected from
+                the entire verb database.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- =====================================
+               SHARED MOOD AND TENSE SELECTION
+          ====================================== -->
+
+          <div class="settings-group">
+
+            <label>
+              Select grammatical moods and tenses
+            </label>
+
+            <p class="settings-hint">
+              Choose which forms you want to practice.
+            </p>
+
+
+            <div class="selection-actions">
+
+              <button
+                id="select-all-btn"
+                type="button"
+              >
+                Select all
+              </button>
+
+              <button
+                id="deselect-all-btn"
+                type="button"
+              >
+                Deselect all
+              </button>
+
+            </div>
+
+
+            <div id="tense-checkboxes"></div>
+
+          </div>
+
+
+          <!-- GAME ERROR -->
+
+          <p
+            id="game-error"
+            class="error-message hidden"
+            aria-live="polite"
+          ></p>
+
+
+          <!-- START CHALLENGE -->
+
+          <button
+            id="start-game-button"
+            class="primary-button"
+            type="button"
+          >
+            Start challenge →
+          </button>
+
+        </div>
+
+
+        <!-- =====================================
+             EXERCISE AREA
+        ====================================== -->
+
+        <div id="exercise-area" class="hidden">
+
+          <div class="exercise-heading">
+
+            <span id="progress-label"></span>
+
+            <h3 id="verb-title"></h3>
+
+            <p id="verb-translation"></p>
+
+            <p id="tense-title"></p>
+
+          </div>
+
+
+          <form id="conjugation-form">
+
+            <div id="answer-fields"></div>
+
+
+            <!-- ANSWER BUTTONS -->
+
+            <div class="answer-buttons">
+
+              <button
+                type="submit"
+                class="primary-button"
+                id="submit-btn"
+              >
+                Check answers →
+              </button>
+
+
+              <button
+                type="button"
+                class="primary-button show-answers-button"
+                id="show-answers-btn"
+              >
+                Show answers
+              </button>
+
+            </div>
+
+          </form>
+
+
+          <!-- FEEDBACK -->
+
+          <div
+            id="feedback"
+            class="hidden"
+            aria-live="polite"
+          ></div>
+
+
+          <!-- NEXT QUESTION -->
+
+          <button
+            id="next-btn"
+            class="primary-button hidden"
+            type="button"
+          >
+            Next question →
+          </button>
+
+        </div>
+
+
+        <!-- =====================================
+             FINAL GAME RESULTS
+        ====================================== -->
+
+        <div
+          id="final-results"
+          class="hidden"
+        ></div>
+
+      </div>
+
+    </section>
+
+  </main>
+  <footer>
+
+    <p>
+      Made by Ester Halvorsen ❤️
+    </p>
+
+    <span
+      class="footer-flag"
+      aria-label="French flag"
+    ></span>
+
+  </footer>
+
+
+  <!-- =====================================
+       JAVASCRIPT
+  ====================================== -->
+
+  <script src="verbs.js"></script>
+
+</body>
+</html>
