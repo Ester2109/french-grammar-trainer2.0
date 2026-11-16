@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Adjective or Adverb | French Grammar Trainer</title>
+
+  <link rel="stylesheet" href="adjective_adverb.css">
+  <script src="adjective_adverb.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+
+    <a href="../../index.html" class="logo">
+      Français
+    </a>
+
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="../../index.html#categories">Grammar</a>
+    </nav>
+
+    <span class="nav-tag">
+      French Grammar Trainer
+    </span>
+
+  </header>
+
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <section class="trainer" aria-labelledby="page-title">
+
+      <!-- BACK NAVIGATION -->
+      <a
+        class="back-button"
+        id="back-to-categories"
+        href="../adjectives.html"
+      >
+        ← Back to categories
+      </a>
+
+      <button
+        class="back-button hidden"
+        id="back-to-modes"
+        type="button"
+      >
+        ← Back to exercises
+      </button>
+
+
+      <!-- PAGE HEADING -->
+      <span class="section-label">
+        FRENCH ADJECTIVES & ADVERBS
+      </span>
+
+      <h1 id="page-title">
+        Practice French adjectives and adverbs
+      </h1>
+
+      <p class="section-description" id="page-description">
+        Choose what you would like to practice.
+      </p>
+
+
+      <!-- EXERCISE SELECTION -->
+      <div id="mode-selection" class="mode-grid">
+
+        <!-- ADJECTIVE OR ADVERB -->
+        <button
+          id="word-class-mode-btn"
+          class="mode-card"
+          type="button"
+        >
+
+          <span
+            class="mode-icon blue-icon"
+            aria-hidden="true"
+          >
+            A / Adv
+          </span>
+
+          <h2>Adjective or Adverb?</h2>
+
+          <p>
+            Decide whether each French word is an adjective,
+            an adverb, or both.
+          </p>
+
+          <span class="card-link">
+            Start challenge →
+          </span>
+
+        </button>
+
+
+        <!-- FUTURE EXERCISES -->
+        <div
+          class="mode-card mode-card-disabled"
+          aria-disabled="true"
+        >
+
+          <span
+            class="mode-icon red-icon"
+            aria-hidden="true"
+          >
+            📖
+          </span>
+
+          <h2>More exercises coming soon</h2>
+
+          <p>
+            More French grammar exercises will be added here.
+          </p>
+
+          <span class="coming-soon">
+            Coming soon
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <!-- GAME PANEL -->
+      <div id="word-class-panel" class="hidden">
+
+        <div class="game-card">
+
+          <!-- START SCREEN -->
+          <div id="game-start" class="start-screen">
+
+            <div
+              class="mode-icon blue-icon centered-icon"
+              aria-hidden="true"
+            >
+              🏆
+            </div>
+
+            <h2>Adjective or Adverb?</h2>
+
+            <p>
+              Choose whether each word can be an adjective,
+              an adverb, or both.
+            </p>
+
+            <label for="question-count">
+              Number of questions
+            </label>
+
+            <select id="question-count">
+              <option value="5">5 questions</option>
+              <option value="10" selected>10 questions</option>
+              <option value="20">20 questions</option>
+              <option value="30">30 questions</option>
+              <option value="50">50 questions</option>
+              <option value="100">100 questions</option>
+            </select>
+
+            <button
+              id="start-game-btn"
+              class="primary-button"
+              type="button"
+            >
+              Start challenge →
+            </button>
+
+          </div>
+
+
+          <!-- GAMEPLAY -->
+          <div id="game-play" class="hidden">
+
+            <div class="game-topline">
+
+              <span class="game-eyebrow">
+                WORD CLASSES · GAME MODE
+              </span>
+
+              <span
+                id="question-progress"
+                class="question-counter"
+              >
+                1 / 10
+              </span>
+
+            </div>
+
+
+            <!-- PROGRESS BAR -->
+            <div
+              id="progress-track"
+              class="progress-track"
+              role="progressbar"
+              aria-label="Game progress"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="0"
+            >
+              <div
+                id="progress-fill"
+                class="progress-fill"
+              ></div>
+            </div>
+
+
+            <!-- QUESTION -->
+            <div class="noun-prompt">
+
+              <h2 id="practice-word">
+                rapide
+              </h2>
+
+              <p
+                id="practice-translation"
+                class="practice-translation"
+              >
+                fast
+              </p>
+
+              <p class="noun-question">
+                Adjective, adverb, or both?
+              </p>
+
+            </div>
+
+
+            <!-- ANSWER BUTTONS -->
+            <div
+              class="answer-grid answer-grid-three"
+              role="group"
+              aria-label="Choose word class"
+            >
+
+              <!-- ADJECTIVE -->
+              <button
+                id="adjective-btn"
+                class="gender-button adjective"
+                type="button"
+              >
+
+                <span
+                  class="gender-symbol"
+                  aria-hidden="true"
+                >
+                  A
+                </span>
+
+                <span>Adjective</span>
+
+              </button>
+
+
+              <!-- BOTH -->
+              <button
+                id="both-btn"
+                class="gender-button both"
+                type="button"
+              >
+
+                <span
+                  class="gender-symbol"
+                  aria-hidden="true"
+                >
+                  A + Adv
+                </span>
+
+                <span>Both</span>
+
+              </button>
+
+
+              <!-- ADVERB -->
+              <button
+                id="adverb-btn"
+                class="gender-button adverb"
+                type="button"
+              >
+
+                <span
+                  class="gender-symbol"
+                  aria-hidden="true"
+                >
+                  Adv
+                </span>
+
+                <span>Adverb</span>
+
+              </button>
+
+            </div>
+
+
+            <!-- ANSWER FEEDBACK -->
+            <p
+              id="answer-feedback"
+              class="answer-feedback"
+              aria-live="polite"
+            ></p>
+
+          </div>
+
+
+          <!-- RESULTS SCREEN -->
+          <div
+            id="game-results"
+            class="results-screen hidden"
+          >
+
+            <span class="section-label">
+              CHALLENGE COMPLETE
+            </span>
+
+            <h2>Your results</h2>
+
+            <p
+              id="result-score"
+              class="result-score"
+            ></p>
+
+            <div
+              id="result-mistakes"
+              class="result-mistakes"
+            ></div>
+
+            <button
+              id="play-again-btn"
+              class="primary-button"
+              type="button"
+            >
+              Play again →
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>Made by Ester Halvorsen ❤️</p>
+
+    <span
+      class="footer-flag"
+      aria-label="French flag"
+    ></span>
+
+  </footer>
+
+</body>
+</html>
