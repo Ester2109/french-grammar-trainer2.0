@@ -88795,6 +88795,21 @@
     }
   },
   {
+    "word": "marron",
+    "english": [
+      "brown",
+      "feral, maroon (that has become wild again (used of a slave or animal who has returned to a free or wild state))",
+      "wild (to qualify a wild alternative for a cultivated plant or domestic animal)",
+      "illicit, crooked (of professions)"
+    ],
+    "forms": {
+      "masculine_singular": "marron",
+      "feminine_singular": "marron",
+      "masculine_plural": "marron",
+      "feminine_plural": "marron"
+    }
+  },
+  {
     "word": "martensitique",
     "english": [
       "martensitic (all senses)"
@@ -102155,8 +102170,8 @@
     "forms": {
       "masculine_singular": "orange",
       "feminine_singular": "orange",
-      "masculine_plural": "oranges",
-      "feminine_plural": "oranges"
+      "masculine_plural": "orange",
+      "feminine_plural": "orange"
     }
   },
   {
